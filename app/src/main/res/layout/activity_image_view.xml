@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewActivity"
+    android:background="#212121">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewer"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_share_24"
+        app:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/imageViewer_repost"
+        android:id="@+id/imageViewer_share"
+        android:layout_marginEnd="35sp"
+        android:layout_marginBottom="16sp"/>
+
+    <ImageButton
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_open_in_new_24"
+        app:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageViewer_repost"
+        android:layout_marginBottom="16sp"/>
+
+    <ImageButton
+        android:layout_width="35sp"
+        android:layout_height="35sp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_save_alt_24"
+        app:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35sp"
+        android:layout_toEndOf="@id/imageViewer_repost"
+        android:id="@+id/imageViewer_save"
+        android:layout_marginBottom="16sp"/>
+
+</RelativeLayout>

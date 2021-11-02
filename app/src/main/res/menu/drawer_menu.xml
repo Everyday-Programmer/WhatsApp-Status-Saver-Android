@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navWhatsApp"
+            android:title="WhatsApp"
+            android:icon="@drawable/ic_baseline_content_copy_24"/>
+        <item
+            android:id="@+id/navBusinessWhatsApp"
+            android:title="Business WhatsApp"
+            android:icon="@drawable/ic_baseline_content_copy_24"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navRate"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="Rate this App"/>
+        </menu>
+    </item>
+
+</menu>
