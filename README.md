@@ -10,4 +10,4 @@ No restrictions to Redistribute.
 • WhatsApp Buisness
 
 # License
-[linky](README.md)
+[l](LICENSE)
