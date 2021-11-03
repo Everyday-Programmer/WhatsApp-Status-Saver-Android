@@ -10,8 +10,10 @@ No restrictions to Redistribute.
 ![Screenshot](Screenshot_1635931119.png?raw=true "Screenshot")
 
 # TODO
-• WhatsApp Buisness
-• GB WhatsApp
+<ul>
+<li>WhatsApp Buisness</li>
+<li>GB WhatsApp</li>
+</ul>
 
 # License
    Licensed under the Apache License, Version 2.0 (the "License");
