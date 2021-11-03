@@ -3,7 +3,7 @@ Whatsapp Status Saver Complete Source Code.
 
 No restrictions to Redistribute.
 
-[![Watch Full Tutorial](https://img.youtube.com/vi/gbzM5kuB8dI/0.jpg)](http://www.youtube.com/watch?v=gbzM5kuB8dI)
+[![Watch Full Tutorial](https://img.youtube.com/vi/77OQi1dJzXg/0.jpg)](http://www.youtube.com/watch?v=77OQi1dJzXg)
 
 # Screenshot
 ![Screenshot](Screenshot_1635931085.png?raw=true "Screenshot")
