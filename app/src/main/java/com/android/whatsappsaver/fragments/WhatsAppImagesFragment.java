@@ -54,7 +54,7 @@ public class WhatsAppImagesFragment extends Fragment implements SwipeRefreshLayo
 
     private void loadData(){
         arrayList = new ArrayList<>();
-        String path = Utils.whatsAppDirectory;
+        String path = Utils.WhatsAppDirectoryPath;
         File directory = new File(path);
         if (directory.exists()) {
             File[] files = directory.listFiles();
